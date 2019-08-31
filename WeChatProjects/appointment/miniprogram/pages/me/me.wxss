@@ -1,0 +1,60 @@
+/* pages/me/me.wxss */
+.me{
+  background-color:#ccc;
+  padding:30rpx;
+  font-size: 30rpx;
+}
+.my-Pic{
+  border-radius: 50%;
+  width:100rpx;height:100rpx;
+  margin: 50rpx 20rpx 0 30rpx;
+}
+.top{
+  display:flex;width:100%;
+  height:200rpx;
+  background-color:beige;
+  line-height:200rpx;
+}
+image{
+  width:70rpx;height:60rpx;
+}
+.data{
+  margin-left:30rpx;
+}
+.date{
+  width:100%;height:150rpx;
+  background-color:#fff;
+}
+.list{
+  display:flex;
+  justify-content: space-around;
+  margin:20rpx 0;
+}
+.sport{
+  background-color:#fff;
+  padding:20rpx;
+  margin-bottom:20rpx;
+}
+
+.bottom{
+  width:100%;
+  height:400rpx;
+  background-color: #fff;
+  
+}
+.balance{
+  border-bottom:1px solid #ccc;
+  height:80rpx;line-height:80rpx;
+  margin:30rpx;
+  display:flex;
+  justify-content: space-between;
+}
+
+
+.present{
+  display:flex;
+}
+
+.bottom-list{
+  padding: 0 40rpx;
+}

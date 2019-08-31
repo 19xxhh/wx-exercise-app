@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/me/me",
+    "pages/course/course",
+    "pages/coach/coach",
+    "pages/appoint/appoint",
+    "pages/map/map",
+    "pages/video/video"
+    
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "我的健身房",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#2c2c2c",
+    "list": [
+      {
+      "pagePath": "pages/appoint/appoint",
+      "text": "首页",
+      "iconPath": "images/index1.png",
+      "selectedIconPath": "images/index.png"
+      },
+      {
+        "pagePath": "pages/coach/coach",
+        "text": "预约",
+        "iconPath": "images/appoint1.png",
+        "selectedIconPath": "images/appoint.png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "课程",
+        "iconPath": "images/course1.png",
+        "selectedIconPath": "images/course.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/my1.png",
+        "selectedIconPath": "images/my.png"
+      }
+    ]
+  }
+}

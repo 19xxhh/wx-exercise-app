@@ -1,0 +1,35 @@
+<!--pages/course/course.wxml-->
+<!-- <text>pages/course/course.wxml</text> -->
+<view class="course">
+  <view class="top">全部课程</view>
+
+
+  <swiper
+    autoplay="true" interval="1000" duration="500">
+    <block wx:for="{{imgUrls}}" wx:key="course">
+      <swiper-item  class="top-img" >
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+
+
+
+  <view class="allCourse">
+    <view>全部</view>
+    <view>力量/塑形</view>
+    <view>瑜伽/普拉提</view>
+    <view>拳击/武术</view>
+    <view>体操/舞蹈</view>
+  </view>
+
+ <view  class="course-img " >
+    <view  wx:for="{{imgurl}}" wx:key="course">
+    <view class="img-bottom" >
+      <image src="{{item}}"></image>
+      <view >{{text}}</view>
+      </view>
+    </view>
+  </view>
+ 
+</view>

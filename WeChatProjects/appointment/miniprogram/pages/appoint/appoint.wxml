@@ -1,0 +1,24 @@
+<!--pages/appoint/appoint.wxml-->
+<!-- <text>pages/appoint/appoint.wxml</text> -->
+<!-- 首页图片 -->
+<view class="index">
+  <image class="top-img" src="/images/index-top.png"></image>
+
+  <!-- 首页中间文字 -->
+  <view class="middle-title">
+    <view class="title">关于我们</view>
+    <view class="map" bindtap="jumpMap">详细地址
+    <image bindtap="jumpMap" class="middle-img" src="/images/map.png"></image></view>
+  </view>
+  <view class="text">十年磨一剑，一直以来我们致力于最贴心的最专业的健身房，您的满意是我们的福祉。。。</view>
+  <view class="text2">***健身房携手健康与健美欢迎您的到来。</view>
+  <view class="middle-title">
+    <view class="title">我们的环境</view>
+    <view class="map" bindtap="jumpVideo">实景视频展示
+    <image bindtap="jumpVideo" class="middle-img" src="/images/video.png"></image></view>
+  </view>
+  <view  class="bottom-img">
+    <!-- <image src="/images/index-bottom.png"></image> -->
+    <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566809151603&di=b6903c88fd24130de73db4d1ba63cdc8&imgtype=0&src=http%3A%2F%2Fwww.cddrzs.com%2Fuploadfile%2F2018%2F0430%2F20180430113049455.jpg'></image>
+  </view>
+</view>

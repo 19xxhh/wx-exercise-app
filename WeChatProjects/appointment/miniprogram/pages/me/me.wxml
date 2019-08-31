@@ -1,0 +1,73 @@
+<!--pages/me/me.wxml-->
+<!-- <text>pages/me/me.wxml</text> -->
+<view class="me">
+  <view class="top">
+    <image class="my-Pic" src="/images/me.png"></image>
+    <view>小灰灰</view>
+  </view>
+
+
+  <view class=" date list">
+    <view class="">
+      <view class="data">0</view>
+      <view>活跃/天</view>
+    </view>
+    <view>
+      <view>0</view>
+      <view>活跃/天</view>
+    </view>
+    <view>
+      <view>0</view>
+      <view>活跃/天</view>
+    </view>
+  </view>
+
+
+  <view class="sport">
+    <view>运动服务</view>
+    <view class="list">
+    <view class="">
+    <image src="/images/cart.png"></image>
+      <view>优惠券</view>
+    </view>
+    <view>
+    <image src="/images/cart.png"></image>
+      <view>优惠券</view>
+    </view>
+    <view>
+    <image src="/images/cart.png"></image>
+      <view>优惠券</view>
+    </view>
+    <view>
+    <image src="/images/cart.png"></image>
+      <view>优惠券</view>
+    </view>
+      
+    </view>
+  </view>
+
+
+  <view class="bottom">
+    <view  class="balance">
+      <view>余额·储值</view>
+      <view>></view>
+    </view>
+
+    <view class="balance">活动中心</view>
+    <view class="present">
+      <view class="bottom-list">
+        <image src="/images/pay.png"></image>
+        <view>充值中心</view>
+      </view>
+      <view>
+        <image src="/images/present.png"></image>
+        <view>礼品卡</view>
+      </view>
+      
+    </view>
+   
+  </view>
+
+ 
+
+</view>

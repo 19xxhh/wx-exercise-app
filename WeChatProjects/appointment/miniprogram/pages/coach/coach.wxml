@@ -1,0 +1,53 @@
+<!--pages/coach/coach.wxml-->
+<!-- <text>pages/coach/coach.wxml</text> -->
+<view class="coach">
+
+     <view class="coach-module">
+    <view class="top">
+      <view>上月明星教练</view>
+      <view class="times">Star</view>
+    </view>
+    <view >
+    <view class="all-coach ">
+      <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2404527917,1613736453&fm=26&gp=0.jpg"></image>
+      <view class="coaches">
+        <view class="text text-coach">
+          <view>张教练</view>
+          <button>约TA</button>
+          <!-- <van-button round type="black">约TA</van-button> -->
+        </view>
+        <view class="times ">上周成功预约20次</view>
+      </view>
+    </view>
+    
+    </view>
+  </view>
+
+    <view class="coach-module">
+    <view class="top">
+      <view>教练们</view>
+      <view class="times">Coaches</view>
+    </view>
+    <view >
+    <view class="all-coach ">
+      <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2404527917,1613736453&fm=26&gp=0.jpg"></image>
+      <view class="coaches">
+        <view class="text text-coach">
+          <view>张教练</view>
+          <button bindtap="yue">约TA</button>
+        </view>
+        <view class="times ">增肌减脂，武术，散打，跆拳道基础和提高训练</view>
+      </view>
+    </view>
+    
+    </view>
+  </view>
+
+
+
+
+
+
+
+</view>
+<!-- wx:for="{{imgurl}}" wx:key="coach" -->

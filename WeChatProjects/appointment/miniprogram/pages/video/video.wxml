@@ -1,0 +1,8 @@
+<!--pages/video/video.wxml-->
+
+<view class="section tc">
+  <video id="myVideo" src="/images/video.mp4" enable-danmu danmu-btn controls></video>
+  <view class="btn-area">
+    <input bindblur="bindInputBlur"/>
+  </view>
+</view>
